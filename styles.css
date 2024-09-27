@@ -57,6 +57,33 @@ gap: 40px;
 .pagebottom{
     margin-top: 20px;
 }
+@media (max-width:768px) {
+    .pagetop{
+        display: flex;
+        flex-direction:column ;
+    align-items:center ;
+    justify-content: center;
+
+    gap: 40px;
+    }
+    .allpage{
+        padding: 11px;
+        align-items: baseline;
+    }
+    .text p {
+        width: 77%;
+    }
+    .twomaker{
+      display: none;
+    }
+
+}
+
+
+
+
+
+
 @media (max-width:576px) {
     .pagetop{
         display: flex;
